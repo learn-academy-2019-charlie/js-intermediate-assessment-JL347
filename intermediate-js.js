@@ -4,6 +4,8 @@
 
 var originalArray = [1, 2, 3, 4, 5, 6, 7]
 
+	originalArray.reverse()
+    console.log(originalArray);
 
 // 2. Given the object below, complete the console.log to find specific information:
 
@@ -18,10 +20,10 @@ var bicycle = {
 }
 
 // Log the type of bicycle:
-console.log()
+console.log(bicycle.type)
 
 // Log the bell:
-console.log()
+console.log(bicycle.gear[2])
 
 // Log the PSI:
 console.log()
