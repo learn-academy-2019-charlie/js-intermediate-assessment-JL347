@@ -4,6 +4,10 @@
 
 var originalArray = [1, 2, 3, 4, 5, 6, 7]
 
+
+	originalArray.reverse()
+    console.log(originalArray);
+=======
 reverse = (arr) => {return arr.reverse()}
 
 console.log(reverse(originalArray))
